@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.salary-up.com/sitemap-index.xml
+
+# AI/LLM 向けサイト要約
+# https://www.salary-up.com/llms.txt

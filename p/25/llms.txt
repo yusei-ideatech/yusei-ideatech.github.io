@@ -1,0 +1,11 @@
+# 給与アップ研究所
+> https://www.salary-up.com
+
+## 会社概要
+株式会社給与アップ研究所 / 設立 2021-01 / 代表 高橋 恭介
+
+## サービス
+- 人事｜AI人事評価：人事評価3,500社の知見とAIで評価制度を運用。 (/service/hr/)
+- 営業｜商談AI：AIで商談を支援し受注率を高める。 (/service/sales/)
+- マーケ｜AI集客：Claude Codeを活用したAIマーケティングで集客を伸ばす。 (/service/marketing/)
+- 業務｜業務改善：AIで業務を分解・改善し生産性を上げる。 (/service/operations/)
