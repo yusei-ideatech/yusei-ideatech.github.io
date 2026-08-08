@@ -1,0 +1,34 @@
+{
+  "name": "株式会社給与アップ研究所",
+  "url": "https://www.salary-up.com",
+  "founded": "2021-01",
+  "ceo": "高橋 恭介",
+  "address": {
+    "region": "東京都",
+    "locality": "渋谷区",
+    "street": "恵比寿南一丁目20番15号 アトリウム恵比寿南一丁目ビル1階",
+    "country": "JP"
+  },
+  "services": [
+    {
+      "name": "人事｜AI人事評価",
+      "url": "/service/hr/",
+      "summary": "人事評価3,500社の知見とAIで評価制度を運用。"
+    },
+    {
+      "name": "営業｜商談AI",
+      "url": "/service/sales/",
+      "summary": "AIで商談を支援し受注率を高める。"
+    },
+    {
+      "name": "マーケ｜AI集客",
+      "url": "/service/marketing/",
+      "summary": "Claude Codeを活用したAIマーケティングで集客を伸ばす。"
+    },
+    {
+      "name": "業務｜業務改善",
+      "url": "/service/operations/",
+      "summary": "AIで業務を分解・改善し生産性を上げる。"
+    }
+  ]
+}
