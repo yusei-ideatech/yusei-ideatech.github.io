@@ -1,0 +1,31 @@
+<!doctype html>
+<!--
+  旧WordPressサイトのプライバシーポリシー（/privacy.html）→ /privacy-policy/ への転送。
+
+  拡張子付きURLのため src/pages 側のルーティング（[...legacy].astro）では
+  dist/privacy.html/index.html というディレクトリになり、URLが完全一致しない。
+  public/ に実ファイルとして置くことで /privacy.html にそのまま応答させる。
+
+  GitHub Pages は 301 を返せないため、meta refresh + canonical + JS の3段で送る。
+  canonical を新URLに向けて検索評価を引き継ぐ（noindex は付けない）。
+-->
+<html lang="ja">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta http-equiv="refresh" content="0; url=/privacy-policy/" />
+    <link rel="canonical" href="https://www.salary-up.com/privacy-policy/" />
+    <title>移転しました｜給与アップ研究所</title>
+    <script>location.replace("/privacy-policy/");</script>
+    <style>
+      body{font-family:system-ui,sans-serif;margin:0;min-height:100vh;display:grid;place-items:center;background:#06201E;color:#fff;padding:24px;text-align:center;line-height:1.9}
+      a{color:#0ABAB5}
+    </style>
+  </head>
+  <body>
+    <div>
+      <p>このページは移転しました。</p>
+      <p>自動で移動しない場合は<a href="/p/78/privacy-policy/">こちらをクリック</a>してください。</p>
+    </div>
+  </body>
+</html>
